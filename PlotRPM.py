@@ -5,8 +5,8 @@ from SimulatorInterface import SimulatorInterface
 from RPMReader import RPMReader
 from Graphics import rpm_graph
 
-#Recopilo datos durando 30s y luego genero el gráfico
-def plot_rpm_data(duration=30):
+#Recopilo datos durando 40 y luego genero el gráfico
+def plot_rpm_data(duration=40):
     #-------- SIMULADOR -------- 
     sim_car = SimulatorInterface()  #car= CarInterface()
     sim_car.connect()
