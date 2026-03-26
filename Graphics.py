@@ -11,8 +11,8 @@ def rpm_graph(time, rpm):
     plt.figure(figsize=(12, 6))
 
     #marker --> Puntos para cada valor
-    plt.plot(time, rpm, label='RPM', color='pink', linewidth=2, marker='o', markersize=4)
-    plt.title('RPM en función del Tiempo', fontsize=16, fontweight='bold', color='pink')
+    plt.plot(time, rpm, label='RPM', color='pink', linewidth=2, marker='*', markersize=4)
+    plt.title('RPM en función del Tiempo', fontsize=16, fontweight='bold')
     plt.xlabel('Tiempo (s)', fontsize=12)
     plt.ylabel('RPM', fontsize=12)
     plt.grid(True, alpha=0.3)
